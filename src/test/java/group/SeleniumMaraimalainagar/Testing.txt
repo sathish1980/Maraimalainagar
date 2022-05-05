@@ -4,4 +4,4 @@ master data in eclipse
 
 
 new test for mergeconflict in branch
-
+merge conflict in branch
