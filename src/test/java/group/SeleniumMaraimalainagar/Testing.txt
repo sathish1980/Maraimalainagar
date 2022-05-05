@@ -2,3 +2,4 @@ sampl java
 
 
 new test for mergeconflict in branch
+mergeconflict chek through text file
