@@ -4,5 +4,6 @@ master data in eclipse
 
 
 new test for mergeconflict in branch
+mergeconflict chek through text file
+new test for mergeconflict in branch
 merge conflict in branch
-line 2
