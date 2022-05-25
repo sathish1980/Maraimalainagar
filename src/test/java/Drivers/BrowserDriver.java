@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserDriver 
@@ -31,7 +32,9 @@ public class BrowserDriver
 		{
 			System.setProperty("webdriver.edge.driver", 
 					System.getProperty("user.dir")+"\\DriverFiles\\msedgedriver.exe");
-			driver = new EdgeDriver();
+			EdgeOptions cp = new EdgeOptions();
+			cp.addArguments("--disable-notifications");
+			driver = new EdgeDriver(cp);
 			
 		}
 	}

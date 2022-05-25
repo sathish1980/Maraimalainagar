@@ -1,34 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T07:57:21 IST" name="Default suite" finished-at="2022-05-25T07:57:29 IST" duration-ms="8652">
+  <suite started-at="2022-05-25T16:09:40 IST" name="Default suite" finished-at="2022-05-25T16:09:59 IST" duration-ms="19075">
     <groups>
     </groups>
-    <test started-at="2022-05-25T07:57:21 IST" name="Default test" finished-at="2022-05-25T07:57:29 IST" duration-ms="8652">
+    <test started-at="2022-05-25T16:09:40 IST" name="Default test" finished-at="2022-05-25T16:09:59 IST" duration-ms="19075">
       <class name="TestCase.FacebookLogin">
-        <test-method is-config="true" signature="browserintiate()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:18 IST" name="browserintiate" finished-at="2022-05-25T07:57:21 IST" duration-ms="3007" status="PASS">
+        <test-method is-config="true" signature="browserintiate()[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:36 IST" name="browserintiate" finished-at="2022-05-25T16:09:40 IST" duration-ms="4314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserintiate -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:21 IST" name="LaunchURL" finished-at="2022-05-25T07:57:24 IST" duration-ms="3085" status="PASS">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:40 IST" name="LaunchURL" finished-at="2022-05-25T16:09:42 IST" duration-ms="1985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method signature="login()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:24 IST" name="login" finished-at="2022-05-25T07:57:29 IST" duration-ms="5521" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method is-config="true" signature="Extentreportlaunch()[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:42 IST" name="Extentreportlaunch" finished-at="2022-05-25T16:09:42 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreportlaunch -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:42 IST" name="Reportstart" finished-at="2022-05-25T16:09:42 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLogin.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="login()[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:42 IST" name="login" finished-at="2022-05-25T16:09:55 IST" duration-ms="12634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginwithinvalidemailid()[pri:1, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:55 IST" name="loginwithinvalidemailid" finished-at="2022-05-25T16:09:59 IST" duration-ms="4230" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [Facebook] but found [Facebook – log in or sign up]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']"}
+  (Session info: MicrosoftEdge=101.0.1210.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-VTBT3RG', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [619e618a55cb0d2a00f1fc55c3491d7b, findElement {using=xpath, value=//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54584}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\sathishkumar\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54584/devtoo..., se:cdpVersion: 101.0.1210.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 619e618a55cb0d2a00f1fc55c3491d7b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at TestCase.FacebookLogin.login(FacebookLogin.java:39)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']"}
+  (Session info: MicrosoftEdge=101.0.1210.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-VTBT3RG', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [619e618a55cb0d2a00f1fc55c3491d7b, findElement {using=xpath, value=//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54584}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\sathishkumar\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54584/devtoo..., se:cdpVersion: 101.0.1210.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 619e618a55cb0d2a00f1fc55c3491d7b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at TestCase.FacebookLogin.loginwithinvalidemailid(FacebookLogin.java:85)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,11 +104,44 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:29 IST" name="teardown" finished-at="2022-05-25T07:57:30 IST" duration-ms="305" status="PASS">
+        </test-method> <!-- loginwithinvalidemailid -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:55 IST" name="reportupdate" finished-at="2022-05-25T16:09:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login()[pri:0, instance:TestCase.FacebookLogin@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:55 IST" name="Reportstart" finished-at="2022-05-25T16:09:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLogin.loginwithinvalidemailid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:59 IST" name="reportupdate" finished-at="2022-05-25T16:09:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithinvalidemailid status=FAILURE method=FacebookLogin.loginwithinvalidemailid()[pri:1, instance:TestCase.FacebookLogin@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FacebookLogin@202b0582]" started-at="2022-05-25T16:09:59 IST" name="teardown" finished-at="2022-05-25T16:10:00 IST" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

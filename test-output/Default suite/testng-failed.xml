@@ -7,8 +7,11 @@
         <methods>
           <include name="LaunchURL"/>
           <include name="teardown"/>
-          <include name="login"/>
+          <include name="Extentreportlaunch"/>
+          <include name="Reportstart"/>
           <include name="browserintiate"/>
+          <include name="loginwithinvalidemailid"/>
+          <include name="reportupdate"/>
         </methods>
       </class> <!-- TestCase.FacebookLogin -->
     </classes>
