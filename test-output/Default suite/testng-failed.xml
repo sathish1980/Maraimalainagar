@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testngconcepts.secondannotation">
+      <class name="TestCase.FacebookLogin">
         <methods>
-          <include name="beforesuite"/>
-          <include name="Testcase2"/>
-          <include name="beforeclass"/>
-          <include name="Testcase3"/>
-          <include name="Testcase1"/>
+          <include name="LaunchURL"/>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="browserintiate"/>
         </methods>
-      </class> <!-- Testngconcepts.secondannotation -->
+      </class> <!-- TestCase.FacebookLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

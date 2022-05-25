@@ -1,149 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="11" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T07:54:57 IST" name="Suite" finished-at="2022-05-24T07:55:03 IST" duration-ms="5720">
+  <suite started-at="2022-05-25T07:57:21 IST" name="Default suite" finished-at="2022-05-25T07:57:29 IST" duration-ms="8652">
     <groups>
-      <group name="sanity">
-        <method signature="Annatotate.Testcase1()[pri:1, instance:Testngconcepts.Annatotate@235ecd9f]" name="Testcase1" class="Testngconcepts.Annatotate"/>
-        <method signature="Annatotate.Testcase1()[pri:1, instance:Testngconcepts.FirstTestNg@663c9e7a]" name="Testcase1" class="Testngconcepts.Annatotate"/>
-        <method signature="Annatotate.Testcase3()[pri:2, instance:Testngconcepts.Annatotate@235ecd9f]" name="Testcase3" class="Testngconcepts.Annatotate"/>
-        <method signature="Annatotate.Testcase3()[pri:2, instance:Testngconcepts.FirstTestNg@663c9e7a]" name="Testcase3" class="Testngconcepts.Annatotate"/>
-      </group> <!-- sanity -->
-      <group name="SIT">
-        <method signature="Annatotate.Testcase2()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" name="Testcase2" class="Testngconcepts.Annatotate"/>
-        <method signature="Annatotate.Testcase2()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" name="Testcase2" class="Testngconcepts.Annatotate"/>
-      </group> <!-- SIT -->
     </groups>
-    <test started-at="2022-05-24T07:54:57 IST" name="Test" finished-at="2022-05-24T07:55:03 IST" duration-ms="5720">
-      <class name="Testngconcepts.Annatotate">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="beforetest" finished-at="2022-05-24T07:54:57 IST" duration-ms="222" status="PASS">
+    <test started-at="2022-05-25T07:57:21 IST" name="Default test" finished-at="2022-05-25T07:57:29 IST" duration-ms="8652">
+      <class name="TestCase.FacebookLogin">
+        <test-method is-config="true" signature="browserintiate()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:18 IST" name="browserintiate" finished-at="2022-05-25T07:57:21 IST" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="beforeclass" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- browserintiate -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:21 IST" name="LaunchURL" finished-at="2022-05-25T07:57:24 IST" duration-ms="3085" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="beforemethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="login()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:24 IST" name="login" finished-at="2022-05-25T07:57:29 IST" duration-ms="5521" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Facebook] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at TestCase.FacebookLogin.login(FacebookLogin.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="Testcase2()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="Testcase2" finished-at="2022-05-24T07:54:57 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FacebookLogin@27406a17]" started-at="2022-05-25T07:57:29 IST" name="teardown" finished-at="2022-05-25T07:57:30 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="afterMethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="beforemethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="Testcase1()[pri:1, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="Testcase1" finished-at="2022-05-24T07:54:57 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="afterMethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="Testcase3()[pri:2, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="Testcase3" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="beforemethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="afterMethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:54:57 IST" name="afterclass" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:55:03 IST" name="aftertest" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:Testngconcepts.Annatotate@235ecd9f]" started-at="2022-05-24T07:55:03 IST" name="aftersuite" finished-at="2022-05-24T07:55:03 IST" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftersuite -->
-      </class> <!-- Testngconcepts.Annatotate -->
-      <class name="Testngconcepts.FirstTestNg">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="beforeclass" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method signature="Testcase2()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="Testcase2" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="beforemethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="afterMethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="beforemethod" finished-at="2022-05-24T07:54:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="launch()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:54:57 IST" name="launch" finished-at="2022-05-24T07:55:02 IST" duration-ms="4969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:02 IST" name="afterMethod" finished-at="2022-05-24T07:55:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="validcredentials()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:02 IST" name="validcredentials" finished-at="2022-05-24T07:55:03 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validcredentials -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:02 IST" name="beforemethod" finished-at="2022-05-24T07:55:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="afterMethod" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="Testcase1()[pri:1, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="Testcase1" finished-at="2022-05-24T07:55:03 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="beforemethod" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="afterMethod" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="Testcase3()[pri:2, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="Testcase3" finished-at="2022-05-24T07:55:03 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="beforemethod" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="afterMethod" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Testngconcepts.FirstTestNg@663c9e7a]" started-at="2022-05-24T07:55:03 IST" name="afterclass" finished-at="2022-05-24T07:55:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- Testngconcepts.FirstTestNg -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.FacebookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
