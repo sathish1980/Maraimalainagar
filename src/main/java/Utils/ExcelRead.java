@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 public class ExcelRead {
 static Object s;
 	
-	static String filepath=System.getProperty("user.dir")+"\\InputFile\\inputdata.xls";
+	static String filepath=System.getProperty("user.dir")+"\\InputFile\\input.xls";
 	public static Object[][] read() throws IOException
 	{
 		Object[][] excelreadarray = null;
@@ -26,7 +26,7 @@ static Object s;
 		//or (.xls)
 		HSSFWorkbook hsf = new HSSFWorkbook(fs);
 		
-		Sheet sh=hsf.getSheet("input");
+		Sheet sh=hsf.getSheet("login");
 		//Sheet sh=wbk.getSheetAt(1);
 		
 		//int totalusedrows=sh.getLastRowNum();

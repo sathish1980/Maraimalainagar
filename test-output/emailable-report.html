@@ -9,36 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,075</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">49,259</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCase.FacebookLogin</td><td><a href="#m0">loginwithinvalidemailid</a></td><td rowspan="1">1653475195237</td><td rowspan="1">4230</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCase.FacebookLogin</td><td><a href="#m1">login</a></td><td rowspan="1">1653475182595</td><td rowspan="1">12634</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCase.FacebookLogin</td><td><a href="#m0">loginwithinvalidemailid</a></td><td rowspan="1">1653531473231</td><td rowspan="1">3048</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">TestCase.FacebookLogin</td><td><a href="#m1">login</a></td><td rowspan="4">1653531441850</td><td rowspan="4">9604</td></tr><tr class="passedeven"><td><a href="#m2">login</a></td></tr><tr class="passedeven"><td><a href="#m3">login</a></td></tr><tr class="passedeven"><td><a href="#m4">login</a></td></tr><tr class="passedeven"><td><a href="#m5">loginwithnocrenyials</a></td><td rowspan="1">1653531471170</td><td rowspan="1">2045</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestCase.FacebookLogin#loginwithinvalidemailid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@role=&apos;navigation&apos;]//div[@aria-label=&apos;Your profile&apos;]//*[name()=&apos;svg&apos;]&quot;}
-  (Session info: MicrosoftEdge=101.0.1210.53)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;DESKTOP-VTBT3RG&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [619e618a55cb0d2a00f1fc55c3491d7b, findElement {using=xpath, value=//div[@role=&apos;navigation&apos;]//div[@aria-label=&apos;Your profile&apos;]//*[name()=&apos;svg&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54584}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\sathishkumar\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54584/devtoo..., se:cdpVersion: 101.0.1210.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 619e618a55cb0d2a00f1fc55c3491d7b
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at TestCase.FacebookLogin.loginwithinvalidemailid(FacebookLogin.java:85)
+<h2>Default test</h2><h3 id="m0">TestCase.FacebookLogin#loginwithinvalidemailid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at TestCase.FacebookLogin.loginwithinvalidemailid(FacebookLogin.java:91)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,6 +48,10 @@ Session ID: 619e618a55cb0d2a00f1fc55c3491d7b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCase.FacebookLogin#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCase.FacebookLogin#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>kumar.sathish189@gmail.com</td><td>Admin@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCase.FacebookLogin#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>kumar.sathish189@gmail.com</td><td>Admin@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCase.FacebookLogin#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>kumar.sathish189@gmail.com</td><td>Admin@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCase.FacebookLogin#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>kumar.sathish189@gmail.com</td><td>Admin@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCase.FacebookLogin#loginwithnocrenyials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

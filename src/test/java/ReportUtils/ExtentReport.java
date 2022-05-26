@@ -12,9 +12,9 @@ public class ExtentReport
 	
 	public static void reportlaunch()
 	{
+		
 		report= new ExtentReports(reportpath+"extentreport.html",true);
-		
-		
+			
 	}
 	
 	public static void Extentstarttest(String Testname)
