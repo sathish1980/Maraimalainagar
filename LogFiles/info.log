@@ -1,0 +1,77 @@
+2022-05-26 12:58:19,816 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-26 12:58:19,916 INFO  class ~ password entered: Admin@123
+2022-05-26 12:58:19,988 INFO  class ~ login button clicked
+2022-05-26 12:58:24,566 INFO  class ~ assertion passed
+2022-05-26 12:58:24,814 INFO  class ~ wait for logouticon
+2022-05-26 12:58:25,057 INFO  class ~ logouticon button clicked
+2022-05-26 12:58:27,114 INFO  class ~ logout button clicked and logout intiated
+2022-05-26 12:58:27,114 INFO  class ~ logout method completed
+2022-05-26 12:58:27,234 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-26 12:58:27,329 INFO  class ~ password entered: Admin@123
+2022-05-26 12:58:27,409 INFO  class ~ login button clicked
+2022-05-26 12:58:32,858 INFO  class ~ assertion passed
+2022-05-26 12:58:32,890 INFO  class ~ wait for logouticon
+2022-05-26 12:58:33,014 INFO  class ~ logouticon button clicked
+2022-05-26 12:58:35,198 INFO  class ~ logout button clicked and logout intiated
+2022-05-26 12:58:35,198 INFO  class ~ logout method completed
+2022-05-26 12:58:35,318 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-26 12:58:35,422 INFO  class ~ password entered: Admin@123
+2022-05-26 12:58:35,490 INFO  class ~ login button clicked
+2022-05-26 12:58:39,774 INFO  class ~ assertion passed
+2022-05-26 12:58:40,061 INFO  class ~ wait for logouticon
+2022-05-26 12:58:40,330 INFO  class ~ logouticon button clicked
+2022-05-26 12:58:42,593 INFO  class ~ logout button clicked and logout intiated
+2022-05-26 12:58:42,593 INFO  class ~ logout method completed
+2022-05-26 12:58:42,705 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-26 12:58:42,809 INFO  class ~ password entered: Admin@123
+2022-05-26 12:58:42,873 INFO  class ~ login button clicked
+2022-05-26 12:58:48,365 INFO  class ~ assertion passed
+2022-05-26 12:58:48,645 INFO  class ~ wait for logouticon
+2022-05-26 12:58:48,845 INFO  class ~ logouticon button clicked
+2022-05-26 12:58:50,832 INFO  class ~ logout button clicked and logout intiated
+2022-05-26 12:58:50,832 INFO  class ~ logout method completed
+2022-05-26 12:58:56,589 DEBUG freemarker.cache ~ Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-05-26 12:58:56,589 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-05-26 12:58:56,589 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-05-26 12:58:56,589 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-05-26 12:58:56,589 DEBUG freemarker.cache ~ Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sathishkumar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-05-27 07:36:38,008 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-27 07:36:38,110 INFO  class ~ password entered: Admin@123
+2022-05-27 07:36:38,167 INFO  class ~ login button clicked
+2022-05-27 07:36:41,541 INFO  class ~ assertion passed
+2022-05-27 07:36:41,577 INFO  class ~ wait for logouticon
+2022-05-27 07:36:41,914 INFO  class ~ logouticon button clicked
+2022-05-27 07:36:43,980 INFO  class ~ logout button clicked and logout intiated
+2022-05-27 07:36:43,980 INFO  class ~ logout method completed
+2022-05-27 07:36:44,076 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-27 07:36:44,165 INFO  class ~ password entered: Admin@123
+2022-05-27 07:36:44,222 INFO  class ~ login button clicked
+2022-05-27 07:36:47,647 INFO  class ~ assertion passed
+2022-05-27 07:36:47,839 INFO  class ~ wait for logouticon
+2022-05-27 07:36:48,172 INFO  class ~ logouticon button clicked
+2022-05-27 07:36:50,250 INFO  class ~ logout button clicked and logout intiated
+2022-05-27 07:36:50,250 INFO  class ~ logout method completed
+2022-05-27 07:36:50,368 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-27 07:36:50,456 INFO  class ~ password entered: Admin@123
+2022-05-27 07:36:50,520 INFO  class ~ login button clicked
+2022-05-27 07:36:54,062 INFO  class ~ assertion passed
+2022-05-27 07:36:54,287 INFO  class ~ wait for logouticon
+2022-05-27 07:36:54,546 INFO  class ~ logouticon button clicked
+2022-05-27 07:36:56,672 INFO  class ~ logout button clicked and logout intiated
+2022-05-27 07:36:56,672 INFO  class ~ logout method completed
+2022-05-27 07:36:56,778 INFO  class ~ User name entered: kumar.sathish189@gmail.com
+2022-05-27 07:36:56,859 INFO  class ~ password entered: Admin@123
+2022-05-27 07:36:56,933 INFO  class ~ login button clicked
+2022-05-27 07:37:00,848 INFO  class ~ assertion passed
+2022-05-27 07:37:00,970 INFO  class ~ wait for logouticon
+2022-05-27 07:37:01,109 INFO  class ~ logouticon button clicked
+2022-05-27 07:37:03,197 INFO  class ~ logout button clicked and logout intiated
+2022-05-27 07:37:03,197 INFO  class ~ logout method completed
+2022-05-27 07:37:05,018 WARN  class ~ username passed
+2022-05-27 07:37:05,094 ERROR class ~ password passed
+2022-05-27 07:37:05,153 FATAL class ~ password passed
+2022-05-27 07:37:08,799 DEBUG freemarker.cache ~ Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-05-27 07:37:08,799 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-05-27 07:37:08,799 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-05-27 07:37:08,799 DEBUG freemarker.cache ~ TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-05-27 07:37:08,799 DEBUG freemarker.cache ~ Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sathishkumar/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

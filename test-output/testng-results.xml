@@ -1,36 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-26T07:47:07 IST" name="Default suite" finished-at="2022-05-26T07:47:56 IST" duration-ms="49259">
+  <suite started-at="2022-05-27T07:36:04 IST" name="Suite" finished-at="2022-05-27T07:37:08 IST" duration-ms="63749">
     <groups>
     </groups>
-    <test started-at="2022-05-26T07:47:07 IST" name="Default test" finished-at="2022-05-26T07:47:56 IST" duration-ms="49259">
+    <test started-at="2022-05-27T07:36:04 IST" name="Test" finished-at="2022-05-27T07:37:08 IST" duration-ms="63749">
+      <class name="TestCase.FacebookLoginloutwithPOM">
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:07 IST" name="Reportstart" finished-at="2022-05-27T07:36:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:07 IST" name="loginwithPageobjectModel" data-provider="facebooklogin" finished-at="2022-05-27T07:36:17 IST" duration-ms="9539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithPageobjectModel -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:17 IST" name="reportupdate" finished-at="2022-05-27T07:36:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithPageobjectModel status=SUCCESS method=FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:17 IST" name="Reportstart" finished-at="2022-05-27T07:36:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:17 IST" name="loginwithPageobjectModel" data-provider="facebooklogin" finished-at="2022-05-27T07:36:24 IST" duration-ms="6912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithPageobjectModel -->
+        <test-method signature="loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:24 IST" name="loginwithPageobjectModel" data-provider="facebooklogin" finished-at="2022-05-27T07:36:31 IST" duration-ms="7103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithPageobjectModel -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:24 IST" name="reportupdate" finished-at="2022-05-27T07:36:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithPageobjectModel status=SUCCESS method=FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:24 IST" name="Reportstart" finished-at="2022-05-27T07:36:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:31 IST" name="loginwithPageobjectModel" data-provider="facebooklogin" finished-at="2022-05-27T07:36:37 IST" duration-ms="6747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithPageobjectModel -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:31 IST" name="reportupdate" finished-at="2022-05-27T07:36:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithPageobjectModel status=SUCCESS method=FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:31 IST" name="Reportstart" finished-at="2022-05-27T07:36:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41]" started-at="2022-05-27T07:36:37 IST" name="reportupdate" finished-at="2022-05-27T07:36:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithPageobjectModel status=SUCCESS method=FacebookLoginloutwithPOM.loginwithPageobjectModel(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLoginloutwithPOM@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+      </class> <!-- TestCase.FacebookLoginloutwithPOM -->
       <class name="TestCase.FacebookLogin">
-        <test-method is-config="true" signature="browserintiate()[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:02 IST" name="browserintiate" finished-at="2022-05-26T07:47:07 IST" duration-ms="4241" status="PASS">
+        <test-method is-config="true" signature="browserintiate()[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:35:59 IST" name="browserintiate" finished-at="2022-05-27T07:36:04 IST" duration-ms="5028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserintiate -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:07 IST" name="LaunchURL" finished-at="2022-05-26T07:47:09 IST" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:04 IST" name="LaunchURL" finished-at="2022-05-27T07:36:07 IST" duration-ms="2465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method is-config="true" signature="Extentreportlaunch()[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:09 IST" name="Extentreportlaunch" finished-at="2022-05-26T07:47:10 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="Extentreportlaunch()[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:37 IST" name="Extentreportlaunch" finished-at="2022-05-27T07:36:37 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Extentreportlaunch -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:10 IST" name="Reportstart" finished-at="2022-05-26T07:47:10 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reportstart -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:10 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-26T07:47:21 IST" duration-ms="11437" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:37 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-27T07:36:43 IST" duration-ms="6079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +189,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:21 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-26T07:47:31 IST" duration-ms="9604" status="PASS">
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:37 IST" name="Reportstart" finished-at="2022-05-27T07:36:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:43 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-27T07:36:50 IST" duration-ms="6270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,29 +216,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:21 IST" name="Reportstart" finished-at="2022-05-26T07:47:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:43 IST" name="reportupdate" finished-at="2022-05-27T07:36:43 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reportstart -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:21 IST" name="reportupdate" finished-at="2022-05-26T07:47:21 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportupdate -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:31 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-26T07:47:41 IST" duration-ms="10019" status="PASS">
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:43 IST" name="Reportstart" finished-at="2022-05-27T07:36:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:50 IST" name="reportupdate" finished-at="2022-05-27T07:36:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:50 IST" name="Reportstart" finished-at="2022-05-27T07:36:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportstart -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:50 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-27T07:36:56 IST" duration-ms="6418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,40 +276,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:31 IST" name="reportupdate" finished-at="2022-05-26T07:47:31 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportupdate -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:31 IST" name="Reportstart" finished-at="2022-05-26T07:47:31 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestCase.FacebookLogin.login(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reportstart -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:41 IST" name="reportupdate" finished-at="2022-05-26T07:47:41 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportupdate -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:41 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-26T07:47:51 IST" duration-ms="9681" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:56 IST" name="login" data-provider="facebooklogin" finished-at="2022-05-27T07:37:03 IST" duration-ms="6517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +292,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:41 IST" name="Reportstart" finished-at="2022-05-26T07:47:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:56 IST" name="reportupdate" finished-at="2022-05-27T07:36:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:36:56 IST" name="Reportstart" finished-at="2022-05-27T07:36:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,11 +314,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reportstart -->
-        <test-method signature="loginwithnocrenyials()[pri:1, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:51 IST" name="loginwithnocrenyials" finished-at="2022-05-26T07:47:53 IST" duration-ms="2045" status="PASS">
+        <test-method signature="loginwithnocrenyials()[pri:1, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:03 IST" name="loginwithnocrenyials" finished-at="2022-05-27T07:37:04 IST" duration-ms="1709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithnocrenyials -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:51 IST" name="Reportstart" finished-at="2022-05-26T07:47:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:03 IST" name="reportupdate" finished-at="2022-05-27T07:37:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:03 IST" name="Reportstart" finished-at="2022-05-27T07:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,29 +340,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reportstart -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:51 IST" name="reportupdate" finished-at="2022-05-26T07:47:51 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FacebookLogin.login(java.lang.String,java.lang.String)[pri:0, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="loginwithinvalidemailid()[pri:2, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:04 IST" name="loginwithinvalidemailid" finished-at="2022-05-27T07:37:08 IST" duration-ms="3549" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportupdate -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:53 IST" name="reportupdate" finished-at="2022-05-26T07:47:53 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginwithnocrenyials status=SUCCESS method=FacebookLogin.loginwithnocrenyials()[pri:1, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportupdate -->
-        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:53 IST" name="Reportstart" finished-at="2022-05-26T07:47:53 IST" duration-ms="16" status="PASS">
+        </test-method> <!-- loginwithinvalidemailid -->
+        <test-method is-config="true" signature="Reportstart(java.lang.reflect.Method)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:04 IST" name="Reportstart" finished-at="2022-05-27T07:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,68 +355,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reportstart -->
-        <test-method signature="loginwithinvalidemailid()[pri:2, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:53 IST" name="loginwithinvalidemailid" finished-at="2022-05-26T07:47:56 IST" duration-ms="3048" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at TestCase.FacebookLogin.loginwithinvalidemailid(FacebookLogin.java:91)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithinvalidemailid -->
-        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:56 IST" name="reportupdate" finished-at="2022-05-26T07:47:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:04 IST" name="reportupdate" finished-at="2022-05-27T07:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginwithinvalidemailid status=FAILURE method=FacebookLogin.loginwithinvalidemailid()[pri:2, instance:TestCase.FacebookLogin@235ecd9f] output={null}]]]>
+                <![CDATA[[TestResult name=loginwithnocrenyials status=SUCCESS method=FacebookLogin.loginwithnocrenyials()[pri:1, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportupdate -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FacebookLogin@235ecd9f]" started-at="2022-05-26T07:47:56 IST" name="teardown" finished-at="2022-05-26T07:47:57 IST" duration-ms="734" status="PASS">
+        <test-method is-config="true" signature="reportupdate(org.testng.ITestResult)[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:08 IST" name="reportupdate" finished-at="2022-05-27T07:37:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithinvalidemailid status=SUCCESS method=FacebookLogin.loginwithinvalidemailid()[pri:2, instance:TestCase.FacebookLogin@508dec2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportupdate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FacebookLogin@508dec2b]" started-at="2022-05-27T07:37:08 IST" name="teardown" finished-at="2022-05-27T07:37:09 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCase.FacebookLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
