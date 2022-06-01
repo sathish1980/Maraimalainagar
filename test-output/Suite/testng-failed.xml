@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="SIT(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCase.FacebookLogin">
+      <class name="TestCase.FacebookLoginloutwithPOM">
         <methods>
           <include name="LaunchURL"/>
+          <include name="loginwithPageobjectModel" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="Reportstart"/>
-          <include name="Extentreportlaunch"/>
-          <include name="browserintiate"/>
-          <include name="loginwithinvalidemailid"/>
           <include name="reportupdate"/>
+          <include name="Reportstart"/>
         </methods>
-      </class> <!-- TestCase.FacebookLogin -->
+      </class> <!-- TestCase.FacebookLoginloutwithPOM -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- SIT(failed) -->
 </suite> <!-- Failed suite [Suite] -->

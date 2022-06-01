@@ -19,8 +19,9 @@ public class Facebooklogin extends CommonFunctions
 	WebDriver driver;
 	public Facebooklogin(WebDriver driver)
 	{
-		this.driver=driver;
+		
 		PageFactory.initElements(driver, this);
+		this.driver=driver;
 	}
 	public String getTitle()
 	{
