@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCase.FacebookLogin">
+      <class name="Drivers.BrowserDriver">
         <methods>
           <include name="LaunchURL"/>
-          <include name="teardown"/>
-          <include name="Extentreportlaunch"/>
-          <include name="Reportstart"/>
-          <include name="browserintiate"/>
-          <include name="loginwithinvalidemailid"/>
-          <include name="reportupdate"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- TestCase.FacebookLogin -->
+      </class> <!-- Drivers.BrowserDriver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

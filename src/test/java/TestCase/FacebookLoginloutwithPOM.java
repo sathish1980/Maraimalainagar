@@ -31,7 +31,7 @@ public class FacebookLoginloutwithPOM extends BrowserDriver
 	@Test(priority=0,dataProvider="facebooklogin",dataProviderClass=datadrivenimplementation.class)
 	public void loginwithPageobjectModel(String uname,String pwd)
 	{
-		Facebooklogin f= new Facebooklogin(driver);
+		Facebooklogin f= new Facebooklogin(getdriver());
 		f.username(uname);
 		//driver.findElement(By.id("email")).sendKeys(uname);
 		ExtentReport.Extentinfo("User name entered: "+uname);
@@ -42,10 +42,10 @@ public class FacebookLoginloutwithPOM extends BrowserDriver
 		//driver.findElement(By.name("login")).click();
 		ExtentReport.Extentinfo("login clicked");
 		String actualTitle=f.getTitle();
-		scrnpath=CommonFunctions.takescreenshot(driver);
-		c.Waitelementtobeclickable(driver,driver.findElement(By.xpath("//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']")));
+		scrnpath=CommonFunctions.takescreenshot(getdriver());
+		c.Waitelementtobeclickable(getdriver(),getdriver().findElement(By.xpath("//div[@role='navigation']//div[@aria-label='Your profile']//*[name()='svg']")));
 		Assert.assertTrue(actualTitle.contains("Facebook"));
-		Facebooklogout fl= new Facebooklogout(driver);
+		Facebooklogout fl= new Facebooklogout(getdriver());
 		fl.logouticon();
 		ExtentReport.Extentinfo("logout icon clicked");
 		fl.logoutfromList();
